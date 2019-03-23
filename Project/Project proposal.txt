@@ -1,0 +1,27 @@
+Implement some modules about folloing functionalities:
+1. Left shifting the tree.
+2. Randomly generating the height of the tree
+3. Displaying the mian game process on the screen.
+After finished this part, we will see following properties:
+1. Trees will appearing on the right of the screen, with ramdom height, moving to the left as a regular speed and finally disappear on the left of the screen.
+2. Each tree will have a food on top of it.
+3. The bird will just hovering in the middle and will not move in any direction.
+
+Implement some modules about following functionalities:
+1. Make the bird be able to fall down slowly by itself and fly up according the input signal.
+2. A finite state maching about several states such as playing the game, game over and restarting the game.
+3. Calculate the hit box of tree, bird, food, sky, ground, make score condition and game over condition if the bird hits any particular thing.
+After finished this part, we will see following properties:
+1. Any properties we saw in part 1.
+2. The bird will move vertically instead of hover in mid air. It will fall down automatically and can only fly up if we give it the right input.
+3. Once the bird hits the food, the food will disappear.
+4. Once the bird hits tree, ground or sky, the game will over and we will jump to another interface untill we press the restart buttom.
+5. We are able to restart the game once the game is over, or any time.
+
+Implement some modules about following functionalities:
+1. Make a score system which adds one score once the bird flying over a tree or eating a food successfully, and the score will be displayed as HEX number on ... board
+2. Make some art design if have extra time, such as change the image of bird, food, tree and background, and add backgroung music
+After finished this part, we will see following properties:
+1. Any properties we saw in part2.
+2. We will ba able to see our current score on ... board when playing each round of the the game.
+3. The game interface will look better.
