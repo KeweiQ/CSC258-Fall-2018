@@ -1,0 +1,21 @@
+vlib work
+
+vlog -timescale 1ps/1ps ramtop.v
+
+vsim -L altera_mf_ver ramtop
+
+log {/*}
+
+add wave {/*}
+
+#force {clock} 0 0, 1 10 -r 20
+#force {data} 1010 0, 1011 20, 1100 40, 1101 60 -r 80
+#force {address} 2#00010 0, 2#00011 20, 2#00100 40, 2#00101 60 -r 80
+#force {wren} 1 0, 0 15, 1 55
+#run 160ps
+
+force {KEY[0]} 0 0, 1 10 -r 20
+force {SW[3: 0]} 1010 0, 1011 20, 1100 40, 1101 60 -r 80
+force {SW[8: 4]} 2#00010 0, 2#00011 20, 2#00100 40, 2#00101 60 -r 80
+force {SW[9]} 1 0, 0 15, 1 55
+run 160ps
