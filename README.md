@@ -1,2 +1,2 @@
-# CSC258 Fall 2018
-Computer Organization 
+# Computer Organization
+CSC258 Fall 2018
